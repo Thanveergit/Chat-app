@@ -18,7 +18,7 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 app.use(cookieParser())
 app.use(cors({
      origin:["http://localhost:5173",
-          "https://chat-app-t2xa.vercel.app/"
+          "https://chat-app-t2xa.vercel.app"
      ],
      credentials:true,
 }
